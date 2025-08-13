@@ -8,8 +8,12 @@ body {
   background: #080808;
   color: #fff;
 }
-html{
-    scroll-behavior: smooth;
+html {
+  scroll-behavior: smooth;
+}
+html,
+body {
+  overflow-x: hidden;
 }
 #header {
   width: 100%;
@@ -390,12 +394,16 @@ nav .fa-solid {
     font-size: 16px;
     margin-right: 20px;
   } */
-   .contact-left, .contact-right{
+  .contact-left,
+  .contact-right {
     flex-basis: 100%;
-   }
-   .copyright{
+  }
+  .copyright {
     font-size: 14px;
-   }
+  }
+  #portfolio {
+    padding: 20px 10px;
+  }
 }
 
 /* #msg{
