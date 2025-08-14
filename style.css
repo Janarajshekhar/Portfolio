@@ -360,8 +360,8 @@ nav .fa-solid {
     position: fixed;
     top: 0;
     right: -200px;
-    width: 160px;
-    height: 340px;
+    width: 150px;
+    height: 390px;
     padding-top: 50px;
     z-index: 2;
     transition: right 0.3s;
@@ -369,7 +369,7 @@ nav .fa-solid {
   nav ul li {
     display: block;
     margin: 30px;
-    text-align: center;
+    /* text-align: center; */
   }
   nav ul .fa-solid {
     position: absolute;
