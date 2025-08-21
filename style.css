@@ -42,6 +42,10 @@ nav {
 .logo {
   width: 250px;
   height: 50px;
+  transition: 0.3s;
+}
+.logo:hover{
+  filter: drop-shadow(1px 1px 10px rgb(255, 162, 0));
 }
 nav ul li {
   display: inline-block;
@@ -66,6 +70,9 @@ nav ul li a::after {
 }
 nav ul li a:hover::after {
   width: 100%;
+}
+nav ul li a:hover{
+  filter: drop-shadow(1px 1px 10px rgb(5, 248, 114));
 }
 .header-text {
   margin-top: 20%;
@@ -195,6 +202,7 @@ nav ul li a:hover::after {
 .services-list div:hover {
   background: #ff004f;
   transform: translateY(-10px);
+  box-shadow: 1px 1px 20px #ff004f;
 }
 
 /* ---------------------------portfolio------------------------ */
@@ -316,6 +324,7 @@ nav ul li a:hover::after {
 }
 .btn:hover {
   background: #ff004f;
+  box-shadow: 1px 1px 10px rgb(7, 221, 168);
 }
 
 @media only screen and (max-width: 600px){
@@ -357,6 +366,7 @@ nav ul li a:hover::after {
 .social-icons a:hover {
   color: #ff004f;
   transform: translateY(-5px);
+  filter: drop-shadow(1px 1px 10px rgb(44, 220, 153));
 }
 
 .btn.btn2 {
