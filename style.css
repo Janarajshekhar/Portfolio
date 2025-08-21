@@ -97,6 +97,8 @@ nav ul li a:hover::after {
   width: 100%;
   /* height: 460px; */
   border-radius: 200px;
+  /* box-shadow: 1px 1px 20px yellow; */
+  filter: drop-shadow(1px 1px 20px rgb(4, 213, 237));
 }
 .about-col-2 {
   flex-basis: 60%;
