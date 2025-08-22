@@ -30,12 +30,12 @@ nav {
   top: 0;
   left: 0;
   width: 100%;    
-  
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 1px 10px;
   background-color: black;
+  /* background: transparent; */
   z-index: 1000;
   transition: box-shadow 0.3s ease;
 }
