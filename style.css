@@ -15,13 +15,33 @@ html,
 body {
   overflow-x: hidden;
 }
-#header {
+/* #header {
   width: 100%;
   height: 100vh;
   background-image: url(images/background.png);
   background-size: cover;
   background-position: center;
-}
+} */
+ #header{
+  /* margin: 6rem 12rem;
+  height: 20rem;
+  width: 36rem; */
+  width: 100%;
+  height: 100vh;
+  background-size: 100% 100%;
+    background-size: cover;
+  background-position: center;
+  box-shadow: 20px 20px 1000px rgb(4, 251, 251);
+  animation: slider 10s linear infinite alternate-reverse;
+ }
+ @keyframes slider{
+  0%{background-image: url(images/bgc2.jpg);}
+  25%{background-image: url(images/bgc4.jpg);}
+  50%{background-image: url(images/bgc1.jpg);}
+  75%{background-image: url(images/bgc5.jpg);}
+  100%{background-image: url(images/bgc3.jpg);}
+
+ }
 .container {
   padding: 50px 10%;
 }
@@ -45,7 +65,7 @@ nav {
   transition: 0.3s;
 }
 .logo:hover{
-  filter: drop-shadow(1px 1px 10px rgb(255, 162, 0));
+  filter: drop-shadow(1px 1px 10px rgb(188, 156, 100));
 }
 nav ul li {
   display: inline-block;
@@ -105,7 +125,7 @@ nav ul li a:hover{
   /* height: 460px; */
   border-radius: 200px;
   /* box-shadow: 1px 1px 20px yellow; */
-  filter: drop-shadow(1px 1px 20px rgb(4, 213, 237));
+  filter: drop-shadow(1px 1px 20px rgb(184, 237, 69));
 }
 .about-col-2 {
   flex-basis: 60%;
